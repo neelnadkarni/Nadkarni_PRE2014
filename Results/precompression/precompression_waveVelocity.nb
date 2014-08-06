@@ -1,0 +1,147 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 9.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       157,          7]
+NotebookDataLength[      4904,        138]
+NotebookOptionsPosition[      4587,        122]
+NotebookOutlinePosition[      4931,        137]
+CellTagsIndexPosition[      4888,        134]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"v", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "2.5773", ",", "2.7797", ",", "2.8330", ",", "2.8679", ",", "2.9927", ",",
+      "3.0826", ",", "3.1554", ",", "3.2122"}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"u0", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "0", ",", "0.01", ",", "0.02", ",", "0.03", ",", "0.1", ",", "0.2", ",", 
+     "0.3", ",", "0.4"}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"c0", "=", 
+   SqrtBox["10"]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"A", "=", 
+   RowBox[{"Plot", "[", 
+    RowBox[{"c0", ",", 
+     RowBox[{"{", 
+      RowBox[{"u", ",", "0", ",", "0.4"}], "}"}], ",", 
+     RowBox[{"PlotStyle", "\[Rule]", 
+      RowBox[{"Directive", "[", 
+       RowBox[{"Red", ",", "Dashed"}], "]"}]}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"data", "=", 
+   RowBox[{"Transpose", "@", 
+    RowBox[{"{", 
+     RowBox[{"u0", ",", "v"}], "}"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"B", "=", 
+   RowBox[{"ListPlot", "[", 
+    RowBox[{
+     RowBox[{"{", "data", "}"}], ",", 
+     RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+     RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+     RowBox[{"FrameLabel", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Precompression, \!\(\*SubscriptBox[\(u\), \(0\)]\)\>\"", ",", 
+        "\"\<Wave propagation velocity, v\>\""}], "}"}]}], ",", 
+     RowBox[{"BaseStyle", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"FontFamily", "\[Rule]", "\"\<Times\>\""}], ",", "14"}], 
+       "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"B", ",", "A"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.607110696840043*^9, 3.607110770062231*^9}, {
+  3.607110837038062*^9, 3.607110850140812*^9}, {3.6071115080114393`*^9, 
+  3.6071115794015226`*^9}, {3.6071124139122543`*^9, 3.607112428313078*^9}, {
+  3.6071130554539485`*^9, 3.607113069507752*^9}, {3.6071131025896444`*^9, 
+  3.607113113638276*^9}, {3.6071131442810287`*^9, 3.6071131443300314`*^9}, {
+  3.607113201850322*^9, 3.607113209718772*^9}, {3.607113668173994*^9, 
+  3.607113673614305*^9}, {3.6072004000427575`*^9, 3.6072004246201634`*^9}, {
+  3.6072016596458025`*^9, 3.607201849798679*^9}, {3.6154751430962877`*^9, 
+  3.615475192881135*^9}}],
+
+Cell[BoxData[
+ GraphicsBox[{{{}, 
+    {RGBColor[0.24720000000000014`, 0.24, 0.6], 
+     LineBox[{{0., 2.5773}, {0.01, 2.7797}, {0.02, 2.833}, {0.03, 2.8679}, {
+      0.1, 2.9927}, {0.2, 3.0826}, {0.3, 3.1554}, {0.4, 
+      3.2122}}]}, {}}, {{}, {}, 
+    {RGBColor[1, 0, 0], Dashing[{Small, Small}], LineBox[CompressedData["
+1:eJxTTMoPSmViYGAwAWIQvejVzpKz7Y52wdG3rCJ8OB2k7t24mCdSYA/jn2OL
+2Zkr0gDnizz0jew9OAHOLzSa/Zj16Qw4X66k++35/AVw/q/CxP9rDi+B89dp
+8knMPrsCzg9nuewmqbcWzp/dIS4msncDnP/9tQGPyr5NCPckhPHWvNoC5080
+ej7xzsdtcH7B3MOFrO93wPmnJNfElInvhvMFPv8/9V5qL5x/8W68y0bP/XD+
+9Q2tPbLbD8D5NooTdzzbdhDOj52l9Cr4zCE4/+vBzFjX84fhfO9PZtduPT8C
+5+u9X1kT8vsonN8261JK0J9jcP4cv8agL0In4HyNjU8bpcRPwvlOD97fUxE7
+BedLSjQ4XtY6Deen/zv6lFX3DJxf/HZi/x2Xs3A+z0rm9Onh5+B8KWHthmvh
+5+H8z0455++YXYDzp1yeWz9hB4Jf47XIbZv5RTj/8NFMgXUHEXxXCZ7f6U6X
+4HzV/MIXn88i+A5zN35zDLgM5y/aeESa6QKCn3xqlvOUqCtwfvwu754XtxH8
+Xev2X+fLuArnx3SyWS3/iOBbWmvsZSy6BueXfORx1vuL4L+qO/NSpv46nL/8
+U9zy2n8I/uGsLekbOm4gwmfXE4+lnDfh/FqzuznzAxH8B5uuTpg5E8EHAFoF
+YwE=
+      "]]}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->True,
+  AxesOrigin->{0, 2.5773},
+  BaseStyle->{FontFamily -> "Times", 14},
+  Frame->True,
+  FrameLabel->{{
+     FormBox["\"Wave propagation velocity, v\"", TraditionalForm], None}, {
+     FormBox[
+     "\"Precompression, \\!\\(\\*SubscriptBox[\\(u\\), \\(0\\)]\\)\"", 
+      TraditionalForm], None}},
+  Method->{},
+  PlotRange->{{0, 0.4}, {2.5773, 3.2122}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{0.008, 0.008}, {0.012698000000000001`, 
+   0.012698000000000001`}}]], "Output",
+ CellChangeTimes->{
+  3.60720185033771*^9, {3.6154751304905663`*^9, 3.615475193204153*^9}}]
+}, Open  ]]
+},
+WindowSize->{707, 505},
+WindowMargins->{{24, Automatic}, {Automatic, 30}},
+FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[579, 22, 2326, 59, 195, "Input"],
+Cell[2908, 83, 1663, 36, 283, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
